@@ -1,0 +1,24 @@
+/* ═══════════════════════════════════════════════════════════════
+   JOY AGENCY — Dark mode
+   CRITICAL: All rules must be scoped to .admin-root, .workers-root,
+   .detail-root, or .login-root.
+   NO @media prefers-color-scheme block. NO :root overrides.
+   The public homepage (HomePage, hero, services, etc.) always
+   stays light — it was designed for light mode and must not
+   be affected by the device dark-mode preference.
+═══════════════════════════════════════════════════════════════ */
+
+/* ── Shared dark tokens (applied inside the scoped roots) ── */
+.admin-root,
+.workers-root,
+.detail-root,
+.login-root {
+  --d-bg:        #0f1117;
+  --d-surface:   #181c25;
+  --d-raised:    #1e2330;
+  --d-input:     #242938;
+  --d-border:    rgba(255, 255, 255, 0.07);
+  --d-text:      #f0f2f7;
+  --d-text-sub:  rgba(240, 242, 247, 0.55);
+  --d-text-muted:rgba(240, 242, 247, 0.32);
+}

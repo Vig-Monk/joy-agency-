@@ -1,8 +1,7 @@
-<!--<template>
+<template>
 <RouterView/> 
 </template> 
--->
-<template>
+<!--<template>
   <div class="service-page">
     <div class="service-card">
 
@@ -125,4 +124,4 @@ button:hover {
   50% { transform: scale(1.2); opacity: 1; }
   100% { transform: scale(.8); opacity: .5; }
 }
-</style>
+</style>-->
